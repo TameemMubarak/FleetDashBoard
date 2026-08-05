@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Inter,sans-serif;
+}
+
+html,
+body,
+#root{
+
+    width:100%;
+    height:100%;
+    background:#0f172a;
+    color:white;
+
+}
+
+.container{
+
+    width:100%;
+    height:100vh;
+
+    display:flex;
+    flex-direction:column;
+
+    padding:20px 30px;
+
+    gap:20px;
+
+    overflow:hidden;
+
+}
